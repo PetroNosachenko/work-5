@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
+    <link rel="stylesheet" href="../iconfonts/iconstyle.css">
+    <link rel="stylesheet" href="../css/login-modal-wind.css">
+    <title>Sinauw</title>
+</head>
+<body>
+    <div class="wrapper-page">
+        <div class="page">
+            <header class="header" id="home">
+                <div class="wrapper-logo-nav"> 
+                    <div class="logo">
+                        <a href="#"> Sinauw </a>
+                    </div> 
+                    <nav class="nav-bar">
+                        <ul class="nav">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#courses">Courses</a>
+                            </li>
+                            <li>
+                                <a href="#webinar">Webinar</a>
+                            </li>
+                            <li>
+                                <a href="#pricing">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+               </div>
+                <div class="wrapper-lengpanel-btnlogin">  
+                    <!--leng panel-->
+                    <div class="wrapper-lengBar"> 
+                        <div class="lengBar">
+                        
+                            <button onclick="lengBarFunction()" class="leng-btn"> <span class="text-btn">Eng</span> <i class="leng-btn icon-globe"></i><i class="leng-btn icon-caret-down"></i> </button>
+                       
+                            <div id="leng-bar" class="leng_bar">
+                                <a href="https://indexukrleng.html">Ukr</a>
+                                <a href="#">Fra</a>
+                                <a href="#">Ger</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--leng panel-->
+                    <!--btn login-->
+                    <div class="btn-login" id="open_pop_up">
+                        <a href="#"> Login </a>
+                    </div> 
+                    <!--btn login-->                  
+                </div>    
+                
+            </header>
+            <section class="baner__wrapper">
+                <div class="baner">
+                    <div class="img-blok">
+                        <span class="big__confetti"></span>
+                        <span class="small__confetti"></span>
+                        <div class="wrapper-img-teacher"> 
+                            
+                            <div class="img-teacher">
+                                <img src="img/teacher.png" alt="img">
+                            </div>
+                            <div class="img-blok-bg1"></div>  
+                            <div class="img-blok-bg2"></div>  
+                        </div>
+                        
+                        <div class="icons__img lamp">
+                            <img src="img/lamp.png" alt="lamp">
+                        </div>
+                        <div class="icons__img book">
+                            <img src="img/book.png" alt="book">
+                        </div>
+                        
+                        <div class="team"> 
+                            <span class="team__img ellipse38">
+                                <img src="img/Ellipse38.png" alt="">
+                            </span>
+                            <span class="team__img ellipse39 ">
+                                <img src="img/Ellipse39.png" alt="">
+                            </span>
+                            <span class="team__img ellipse40">
+                                <img src="img/Ellipse40.png" alt="">
+                            </span>
+                            <span class="team__img ellipse41">
+                                <img src="img/Ellipse41.png" alt="">
+                            </span>
+                            <span class="team__img last">
+                                <a href="#">&#10010;</a>
+                            </span>
+                            <span class="team__img__text">
+                                More than 80k+ Students <span class="team__img__text__color">joined!</span> 
+                            </span>
+                        </div>
+                    </div>
+                    <div class="baner-titl">
+                        <h1>Grow Your Skills To Advance Your Career Path.</h1>
+                        <p class="baner-text">We have something big for you who want to level up!</p>
+                        <div class="wrapper-search">
+                            <form class="search" action="scriptsearch.php" id="id-search" name="name-form-search" method="post">
+                                <input type="text" placeholder="What do you want to learn..." type="search">
+                                <button type="submit" class="search-img"><img src="img/search.svg" alt="search"> </button>
+                            </form>
+                        </div>
+                        <p class="baner-link">Suggestions</p>
+                        <div class="links-blok">
+                            <div class="links">
+                                <a href="#">UI UX Design</a>
+                                <a href="#">CSS Fundamenta</a>
+                                <a href="#">3D Design Illustration</a>
+                            </div>
+                            <div class="links">    
+                                <a href="#">Website Development</a>
+                                <a href="#">Logo Design</a>
+                                <a href="#">Icon Design</a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="confetti3"></span>
+                </div>  
+            </section>
+            <section class="featured__wrapper">
+                <div class="featured">
+                    <div class="featured__img">
+                        <img src="img/user-group.png" alt="user-group">
+                    </div>
+                    <div class="featured__title">
+                        <h3>Get New Friends</h3>
+                        <p class="text__gray">You will meet new friends in some of classes that you take. Say hello to them and make friends, it will be so much warm friendship!</p>
+                    </div>
+                    <div class="featured__img">
+                        <img src="img/teacher-icon.png" alt="user-group">
+                    </div>
+                    <div class="featured__title">
+                        <h3>Expert and Fun Mentor</h3>
+                        <p class="text__gray">Learn with earnest and don’t forget to get relax too. Learn and enjoy the materials or classes with our expert mentors.</p>
+                    </div>
+                    <div class="featured__img">
+                        <img src="img/book-heart.png" alt="user-group">
+                    </div>
+                    <div class="featured__title">
+                        <h3>Flexible Access</h3>
+                        <p class="text__gray">You can access materials or classes easily by our website also mobile. Access it everywhere and everytime, no limit for you to learn!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="classes__wrapper" id="courses">
+                <h2>What Do You Want to Learn?</h2>
+                <p class="gray">Choose the right class as you need. Then enjoy studying.</p>
+                <div class="classes__card__container"> 
+                    <div class="classes__card">
+                        <div> 
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/bukh8.jpg" alt="noutbook">
+                                    <a href="#" class="card__link">12 Videos</a>  
+                                </div>
+                                <p class="card__text__green">Technology</p>
+                                <h3>Digital Marketing Strategy</h3>
+                                <p class="text__gray">This course aims to give you deeper understanding of core processes ...</p>
+                                <hr>
+                                <div class="card__footer">
+                                    <div>
+                                        <img src="img/Ellipse29.png" alt="photo">
+                                    </div>
+                                    <div class="card__photo">
+                                        <h5>Joey Piere</h5>
+                                        <p>Mentor</p>
+                                    </div>
+                                </div>
+                                
+                                    <a href="#" class="card__btn">Access Class</a>
+                            </div>
+                        </div>
+
+                        <div> 
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/figma.jpg" alt="noutbook">
+                                    <a href="#" class="card__link">7 Videos</a>  
+                                </div>
+                                <p class="card__text__green">Design</p>
+                                <h3>Figma Fundamental</h3>
+                                <p class="text__gray">These lessons and exercises will help you start designing with Figma ...</p>
+                                <hr>
+                                <div class="card__footer">
+                                    <div>
+                                        <img src="img/Ellipse28.png" alt="photo">
+                                    </div>
+                                    <div class="card__photo">
+                                        <h5>Araya Sheila</h5>
+                                        <p>Mentor</p>
+                                    </div>
+                                </div>
+                                
+                                    <a href="#" class="card__btn">Access Class</a>
+                            </div>
+                        </div>
+
+                        <div> 
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/html.jpg" alt="noutbook">
+                                    <a href="#" class="card__link">10 Videos</a>  
+                                </div>
+                                <p class="card__text__green">Coding</p>
+                                <h3>HTML Fundamental</h3>
+                                <p class="text__gray">Well organized and easy to make you understand tutorials with lots of ...</p>
+                                <hr>
+                                <div class="card__footer">
+                                    <div>
+                                        <img src="img/Ellipse27.png" alt="photo">
+                                    </div>
+                                    <div class="card__photo">
+                                        <h5>Ellisa Ruth</h5>
+                                        <p>Mentor</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="card__btn">Access Class</a>
+                            </div>
+                        </div>
+
+                        <div> 
+                            <div class="card">
+                                <div class="card__img">
+                                    <img src="img/android.jpg" alt="noutbook">
+                                    <a href="#" class="card__link">12 Videos</a>  
+                                </div>
+                                <p class="card__text__green">Coding</p>
+                                <h3>Android App Development</h3>
+                                <p class="text__gray">Take your Android coding skills to the next level, advanced Android app ...</p>
+                                <hr>
+                                <div class="card__footer">
+                                    <div>
+                                        <img src="img/Ellipse26.png" alt="photo">
+                                    </div>
+                                    <div class="card__photo">
+                                        <h5>Wendy Troye</h5>
+                                        <p>Mentor</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="card__btn">Access Class</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="allclosses"> 
+                    <a href="allclosses.html" target="_blank">Show All Classes</a>
+                </div>
+            </section>
+            <section class="webinar__wrapper" id="webinar">
+                <h2>Live Online Webinar</h2>
+                <p class="gray">You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!</p>
+                <!-- slide -->
+                <div class="video-slide">
+                    <div class="slide-wrapper">
+                        <div class="slide-content left">
+                            <span class="slide-content__text"> User Interfase Desing Fundamental
+                            </span>
+                            <video controls  muted width="100%" height="100%">
+                                <source src="video/Work Space - 3132.mp4" type="video/mp4">
+                                <source src="video/Work Space - 3132.webm" type="video/webm">
+                                <source src="video/Work Space - 3132.ogv" type="video/ogg">
+                            </video>
+
+                        </div>
+                        <div class="slide-content activ">
+                            <span class="slide-content__text"> How To Build Portofolio as A Designer 
+                            </span>
+                            <video controls  muted width="100%" height="100%">
+                                <source src="video/Office - 69952.mp4" type="video/mp4">
+                                <source src="video/Office - 69952.webm" type="video/webm">
+                                <source src="video/Office - 69952.ogv" type="video/ogg">
+                            </video>
+                        </div>
+                        <div class="slide-content">
+                            <span class="slide-content__text"> HTML CSS Fundamental
+                        </span>  
+                        <video controls  muted width="100%" height="100%">
+                            <source src="video/Computer Keyboard - 3174.mp4" type="video/mp4">
+                            <source src="video/Computer Keyboard - 3174.webm" type="video/webm">
+                            <source src="video/Computer Keyboard - 3174.ogv" type="video/ogg">
+                        </video>  
+                        </div>
+                    </div>
+                <div class="control">
+                    <span class="btn-control-left">&laquo;</span>
+                    <span class="btn-control-right">&raquo;</span>
+                </div>    
+                    
+                </div>
+                <div class="webinars-link">
+                    <a href="moreWebinar.php" target="_blank">
+                        See more webinar videos  &rarr;
+                    </a>
+                </div>
+            </section>
+            <section class="Course_Pricing-wrapper" id="pricing">
+                <h2> Course Pricing </h2>  
+                <p class="gray"> Choose pricing that suits to your need. </p>
+                <div class="course__card__blok">
+                    <div class="course__card">
+                        <div class="course__card__wrapper">
+                            <div class="course__card__img">
+                                <img src="img/star1.png" alt="img">
+                            </div>
+                            <div class="course__card__text">
+                                <p class="course__card__text__h3">Free</p>
+                                <p class="course__card__text__month">
+                                    <span class="sup"> <sup>$</sup></span><span class="red">0</span> / month
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul class="course__card__list">
+                            <li> <span class="list-style-type"></span> Free e-book for every class</li>
+                            <li><span class="list-style-type"></span>Materials update every day</li>
+                            <li><span class="list-style-type"></span>Free download material videos</li>
+                            <li><span class="list-style-type"></span>Unlock 5 material videos</li>
+                        </ul>
+
+                        <a href="#" class="course__card__btn"> Your Current Package </a>
+                    </div>
+                    <div class="course__card ">
+                        <div class="course__card__wrapper">
+                            <div class="course__card__img">
+                                <img src="img/key1.png" alt="img">
+                            </div>
+                            <div class="course__card__text">
+                                <p class="course__card__text__h3">Express</p>
+                                <p class="course__card__text__month">
+                                    <span class="sup"> <sup>$</sup></span><span class="red">75</span> / month
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul class="course__card__list">
+                            <li> <span class="list-style-type"></span> Free e-book for every class</li>
+                            <li><span class="list-style-type"></span>Materials update every day</li>
+                            <li><span class="list-style-type"></span>Free download material videos</li>
+                            <li><span class="list-style-type"></span>Meeting 2 times a week</li>
+                            <li><span class="list-style-type"></span>Unlock 5 material videos</li>
+                        </ul>
+
+                        <a href="#" class="course__card__btn"> Your Current Package </a>
+                    </div>
+                    <div class="course__card">
+
+                        <span class="leyba">Popular</span>
+                        <div class="course__card__wrapper">
+                            <div class="course__card__img">
+                                <img src="img/crown1.png" alt="img">
+                            </div>
+                            <div class="course__card__text">
+                                <p class="course__card__text__h3">Premium</p>
+                                <p class="course__card__text__month">
+                                    <span class="sup"> <sup>$</sup></span><span class="red">115</span> / month
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul class="course__card__list">
+                            <li> <span class="list-style-type"></span> Free e-book for every class</li>
+                            <li><span class="list-style-type"></span>Materials update every day</li>
+                            <li><span class="list-style-type"></span>Free download material videos</li>
+                            <li><span class="list-style-type"></span>Private chat with mentor</li>
+                            <li><span class="list-style-type"></span>Meeting 3 times a week</li>
+                            <li><span class="list-style-type"></span>Unlock up to 30 material videos</li>
+                            <li><span class="list-style-type"></span>Unlimited saved class</li>
+                        </ul>
+
+                        <a href="#" class="course__card__btn"> Your Current Package </a>
+                    </div>
+                </div>
+            </section>
+            <section class="GetOurApss__wrapper">
+                <div class="GetOurApss"> 
+                    <div class="GetOurApss__text">
+                        <p class="GetOurApss__text__h1">Get Our Apps, Now!</p>
+                        <p class="GetOurApss__text__h3">Reach out our apps everywhere and everytime with Sinauw Mobile Application.</p>
+                        <p class="GetOurApss__text__icons"> 
+                            <span class="GetOurApss__text__icons__google">
+                                <img src="img/googlepay.png" alt="Googie Pay">
+                            </span>
+                            <span class="GetOurApss__text__icons__google">
+                                <img src="img/appstore.png" alt="Apps Store">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="GetOurApss__images">
+                        <div class="GetOurApss__images__icons">
+                            <div class="GetOurApss__images__icons__wrapper">
+                                <div class="GetOurApss__img__uzer__wrapper">  
+                                    <span class="GetOurApss__img__uzer">
+                                        <img src="img/uzer.png" alt="uzer">
+                                    </span>
+                                    <div class="GetOurApss__uzer__name">
+                                        <p class="uzer__name">Hello, Alexander</p>
+                                        <p class="uzer__title">Premium Member</p>
+                                    </div>
+                                </div>
+                                <span class="crown2"> <img src="img/crown1.png" alt="crown 2"> </span>
+                                
+                            </div>    
+                            <div class="GetOurApss__lamp__wrapper">
+                                <span class="lamp__img">
+                                    <img src="img/lamp1.png" alt="">
+                                </span>
+                                <div class="GetOurApss__lamp">
+                                        <p class="uzer__name">Grow Your Skill, Join Now!</p>
+                                        <p class="uzer__title">We have something big for you who want to level up!</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="GetOurApss__faimg__wrapper">
+                            <div class="GetOurApss__faimg">
+                                <div class="faimg">
+                                    <img src="img/fa-solid_chart-pie.png" alt="img"> 
+                                </div>
+                                <div class="faimg__title"> 
+                                    <a href="#"><span>Courses Progress</span> 
+                                        <span>&rsaquo;</span>
+                                    </a>
+                                    
+                                 </div>
+                            </div>
+                            <div class="GetOurApss__faimg">
+                                <div class="faimg">
+                                    <img src="img/fa-solid_laptop-code.png" alt="img"> 
+                                </div>
+                                <div class="faimg__title"> 
+                                    <a href="#">
+                                    <span>Class Collections</span> 
+                                    <span>&rsaquo;</span>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <span class="photo ellipse51"></span>         
+                        <span class="photo ellipse53"></span>
+                        <span class="photo ellipse55"></span>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <footer class="footer">
+            <div class="container">  
+                <div class="footer__wrapper">
+                    <div class="wrapper-logo-footer"> 
+                        <div class="logo logo__futer">
+                            <a href="#"> Sinauw </a>
+                        </div> 
+                        <p class="footer__titl">Any feedback or questions? Contact us on our social media</p>
+                        <div class="footer__socialicons">
+                            
+                            <a href="https://www.facebook.com/" class="facebook__icon" target="_blank" title="facebook">
+                            </a>
+                            <a href="https://twitter.com/" class="tviter__icon" target="_blank" title="tviter">
+                            </a>
+                            <a href="https://www.instagram.com/" class="inst__icon" target="_blank" title="instagram">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer__nav__box">
+                        
+                        <div class="menu menu__nav">
+                            <h3>Menu</h3>
+                            <ul>
+                                <li> 
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#courses">Courses</a>
+                                </li>
+                                <li>
+                                    <a href="#webinar">Webinar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu services">
+                            <h3>Services</h3>
+                            <ul>
+                                <li> 
+                                    <a href="#" target="_blank">Materials Update</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Trusted Mentor</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Free E-book</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Meeting</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu information">
+                            <h3>Further Information</h3>
+                            <ul>
+                                <li> 
+                                    <a href="#" target="_blank">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu downnload">
+                            <h3>Apps Download</h3>
+                            <ul>
+                                <li> 
+                                    <a href="#" target="_blank">Google Play Store</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">App Store</a>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="coptright"> Copyright &copy;  2021 Sinauw. All Rights Reserved. 
+                </div>
+            </div>
+        </footer>
+        <!-- modal window login -->
+        <div  id="pop_up" class="pop-up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                    <p class="text-modal">Login</p>
+                    <form action="script.php" id="login-modal-forms" name="login-modal-forms" method="post">
+                        <input type="text" placeholder="Username" name="uname" required>
+                        <input type="password" placeholder="Password" required="required">
+                        <label for="remember"> 
+                            <input type="checkbox" id="remember" name="remember"> Remember me
+                        </label>
+                        <button type="submit" class="button-form">Login</button>
+                       
+                    </form>
+                    <div class="btn_sing_up">  
+                        <button class="btn-reset" name="btn-reset" type="reset" form="login-modal-forms" value="btn-reset"> Reset </button>
+                        <button type="button" class="registration">
+                            <a href="#" id="open_sing_up">Sing Up</a>
+                        </button>
+                    </div>
+                    <p class="psw"> 
+                        <a href="#" class="psw-link"> Forgot password?</a>
+                    </p>
+                   
+                    <div class="pop_up_close" id="pop_up_close">&#10006;</div> <!-- &#10006; -спецсимвол HTML -->
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+    </div>
+    <script src="js/slide-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login-modal.js"></script>
+</body>
+</html>
